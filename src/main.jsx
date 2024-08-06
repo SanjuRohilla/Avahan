@@ -7,6 +7,8 @@ import {
 
 import App from './App.jsx'
 import Home from './pages/Home.jsx';
+import Event from './pages/Event.jsx';
+import EventDetail from './pages/EventDetail.jsx'; // Import EventDetail component
 import './index.css'
 
 const router = createBrowserRouter([
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/events",
+        element: <Event />,
+      },
+      {
+        path: "/events/:id", // Add the route for event details
+        element: <EventDetail />,
       },
     ],
   },
