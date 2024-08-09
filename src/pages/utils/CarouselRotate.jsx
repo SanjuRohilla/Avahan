@@ -12,6 +12,7 @@ import dragon_10 from "../../assets/carrotate/dragon_10.jpg";
 
 
 const CarouselRotate = () => {
+
     return (
         <div className="car">
             <div className="slider" style={{ '--quantity': 7 }}>
