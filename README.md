@@ -4,16 +4,16 @@ don't create a pull request fromm your main, instead irectly create from branch 
 
 ## HOME PAGE: Deadline 7 Aug
 ### Navbar
-- Rishab: Make responsive.
+- Rishabh: Make responsive.
 
 ### Hero Banner
-- Rishab: Title: Avahan in Hindi Large Size.
+- Rishabh: Title: Avahan in Hindi Large Size.
 
 ### Rotating Carosul
-- Rishab: Beautify it.
+- Rishabh: Beautify it.
 
 ### Footer
-- Rishab: Desgin the footer
+- Rishabh: Desgin the footer
 
 ## Event Page: Deadline 7 Aug
 Design the event page.
