@@ -2,7 +2,6 @@ import React from 'react'
 import './Card1.css'
 
 
-
 const Card1 = ({username = "Name" , insta = "https://instagram.com" , linkedin = "https://linkedin.com" }) => {
   const style = {
   width: '150px',
@@ -13,7 +12,7 @@ const Card1 = ({username = "Name" , insta = "https://instagram.com" , linkedin =
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="\src\assets\pexels-anastasiya-gepp-654466-1462630.jpg.url" className='rounded-xl' alt="Avatar"   />
+      <img src="\src\assets\pexels-anastasiya-gepp-654466-1462630.jpg" className='rounded-xl' alt="Avatar"   />
     </div>
     <div class="flip-card-back"  >
       {/* <h1>John Doe</h1>
@@ -22,7 +21,7 @@ const Card1 = ({username = "Name" , insta = "https://instagram.com" , linkedin =
       <h1 className='text-white text-xll'>{username}</h1>
 
       <div className='flex gap-3'>
-      <a href={insta}><img src="/src/assets/svgs/insta.svg" alt="" className='size-10'/></a>
+      <a href={insta}><img src="\src\assets\svgs\insta.svg" alt="" className='size-10'/></a>
       <a href={linkedin}><img src="/src/assets/svgs/linkedin.svg" alt="" className='size-10' /></a>
       </div>
     </div>

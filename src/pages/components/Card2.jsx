@@ -8,7 +8,7 @@ const Card2 = ({username = "Apka Naam" , domain = "domain", href = "https://inst
     <div className="max-w-sm bg-white border border-gray-200   dark:bg-transparent dark:border-collapse rounded-3xl shadow-lg " >
      <a href="#" className=' rounded-full p-8'> 
         {/* <div className='rounded-full' > */}
-        <img className="rounded-3xl p-4 mt-8 " src="/src/assets/AAhvan.jpeg" alt="" />
+        <img className="rounded-3xl p-4 mt-8 " src="\src\assets\AAhvan.jpeg" alt="" />
         {/* </div> */}
      </a>  
     <div className="p-5">
