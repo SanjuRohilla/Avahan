@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar3 />
       <Outlet />
-
+      <Footer/>
     </>
   )
 }

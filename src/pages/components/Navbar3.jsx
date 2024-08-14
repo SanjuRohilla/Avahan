@@ -37,8 +37,8 @@ function Navbar() {
     const navItems = (
         <>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/">Team</Link></li>
-            <li><Link to="/">Events</Link></li>
+            <li><Link to="/team">Team</Link></li>
+            <li><Link to="/events">Events</Link></li>
         </>
     );
 
