@@ -35,7 +35,7 @@ function EventDetail() {
         <h1>{event.title}</h1>
         <small>{event.date}</small>
         <p>{event.description}</p>
-        <button className="register-button">Register</button>
+        <button className="register-button">Registration will be starting soon</button>
       </div>
     </div>
   );
