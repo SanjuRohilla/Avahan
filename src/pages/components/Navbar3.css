@@ -1,7 +1,8 @@
 /* General styles for the navbar */
 .navbar-container {
-    backdrop-filter: blur(10px);
-    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
+    background-color: #2D112B;
+
     position: fixed;
     top: 0;
     left: 0;

@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,6 +8,8 @@ import {
 import App from './App.jsx'
 import Home from './pages/Home.jsx';
 import Team from './pages/Team.jsx';
+import Event from './pages/Event.jsx';
+import EventDetail from './pages/EventDetail.jsx';  // Import EventDetail
 import './index.css'
 
 const router = createBrowserRouter([
@@ -21,7 +23,15 @@ const router = createBrowserRouter([
       },
       {
         path: "team",
-        element: <Team/>,
+        element: <Team />,
+      },
+      {
+        path: "events",
+        element: <Event />,
+      },
+      {
+        path: "events/:id",  // Add dynamic route for EventDetail
+        element: <EventDetail />,
       },
     ],
   },

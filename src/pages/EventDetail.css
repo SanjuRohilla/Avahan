@@ -1,95 +1,120 @@
 .details {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FDDADA;
-    padding: 20px;
-    box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDDADA;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #572037;
+  border-radius: 6px;
+  color: #fff;
+  min-height: 60vh;
+}
+
+/* Typography */
+.content h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+small {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #d74f73;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Button */
+.register-button {
+  background-color: #A3294A;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #871d2a;
+}
+
+/* Larger Screens */
+@media (min-width: 1200px) {
+  .content h1 {
+    font-size: 5rem; /* Keep heading size consistent */
   }
-  
-  .content {
-    text-align: center;
-    /* max-width: 600px; */
-    width: 100%;
-    padding: 20px 40px;
-    background-color: #572037;
-    border-radius: 6px;
-    color: #fff;
-    
-  }
-  
-  h1 {
-    font-size: 5rem;
-    margin-bottom: 10px;
-  }
-  
+
   small {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 1rem;
-    color: #d74f73;
+    font-size: 1.5rem; /* Increase small text size */
   }
-  
+
   p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    text-align: center;
+    font-size: 1.5rem; /* Increase paragraph text size */
   }
-  
+
   .register-button {
-    background-color: #A3294A;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 14px 28px; /* Increase button padding */
+    font-size: 1.2rem; /* Increase button text size */
   }
-  
-  .register-button:hover {
-    background-color: #871d2a;
+}
+
+/* Responsive Styles for medium screens */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 1.5rem; /* Adjust heading size for medium screens */
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-  
-    small {
-      font-size: 0.9rem;
-    }
-  
-    p {
-      font-size: 0.9rem;
-    }
-  
-    .register-button {
-      padding: 8px 16px;
-      font-size: 0.9rem;
-    }
+
+  small {
+    font-size: 0.9rem;
   }
-  
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.2rem;
-    }
-  
-    small {
-      font-size: 0.8rem;
-    }
-  
-    p {
-      font-size: 0.8rem;
-    }
-  
-    .register-button {
-      padding: 6px 12px;
-      font-size: 0.8rem;
-    }
+
+  p {
+    font-size: 0.9rem;
   }
-  
+
+  .register-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Styles for small screens */
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 1.2rem; /* Adjust heading size for small screens */
+  }
+
+  small {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .register-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
