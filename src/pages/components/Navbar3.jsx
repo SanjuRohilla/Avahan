@@ -37,7 +37,11 @@ function Navbar() {
     const navItems = (
         <>
             <li><Link to="/">Home</Link></li>
+<<<<<<< HEAD
             <li><Link to="/">Team</Link></li>
+=======
+            <li><Link to="/team">Team</Link></li>
+>>>>>>> 75d86673a9d5cbec4fd52dd8b8f74c2853916449
             <li><Link to="/events">Events</Link></li>
         </>
     );

@@ -7,8 +7,7 @@ import {
 
 import App from './App.jsx'
 import Home from './pages/Home.jsx';
-import Event from './pages/Event.jsx';
-import EventDetail from './pages/EventDetail.jsx'; // Import EventDetail component
+import Team from './pages/Team.jsx';
 import './index.css'
 
 const router = createBrowserRouter([
@@ -21,12 +20,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/events",
-        element: <Event />,
-      },
-      {
-        path: "/events/:id", // Add the route for event details
-        element: <EventDetail />,
+        path: "team",
+        element: <Team/>,
       },
     ],
   },
