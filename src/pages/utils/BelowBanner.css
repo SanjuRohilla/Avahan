@@ -75,7 +75,7 @@
     width: 0;
     background: #f0094a;
     box-shadow:
-        -1px -1px 5px 0px #fff,
+      
         7px 7px 20px 0px #0003,
         4px 4px 5px 0px #0002;
     transition: 400ms ease all;
@@ -94,9 +94,13 @@
     transition: 800ms ease all;
 }
 
-.animation-show {
+
+
+/* .animation-show {
     transform: translateY(50px);
+    text-align: center;
     transition: 0.7s;
+    width: 80%;
 }
 
 .tab .library .animation-show {
@@ -118,7 +122,7 @@
 
 .animation-show:nth-child(4) {
     transition-delay: 0.9s;
-}
+} */
 
 .library {
     margin-top: 50px;
@@ -130,12 +134,20 @@
 }
 
 .library img {
-    width: 90%;
+    width: 100%;
+    margin-top: 30px;
+    height: 70%;
     border-radius: 10px;
     height: 400px;
     object-fit: cover;
-    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+    /* transition: transform 0.1s ease-out, box-shadow 0.1s ease-out; */
 }
+.library p{
+    margin-top: 20px;
+    margin-bottom: 30PX;
+}
+
+
 
 .library .animation-show {
     padding: 5px;
@@ -145,8 +157,13 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
-.library img:hover {
-    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 60px rgba(255, 255, 255, 0.3);
+
+.intro button{
+    width: auto;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -211,8 +228,24 @@
     animation-delay: 1.2s;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
+
     .library {
         grid-template-columns: repeat(1, 1fr);
+        
+    }
+   .intro{
+    width: 60%;
+    margin: auto;
+   }
+   .intro h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+  
+   }
+    .intro .animation-show{
+      
+        font-size: 10px;
+        
     }
 }

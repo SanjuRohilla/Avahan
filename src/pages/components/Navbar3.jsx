@@ -69,7 +69,7 @@ function Navbar() {
                             {navItems}
                         </ul>
                     </div>
-                    <a className="logo">Rajbhasha</a>
+                    <a className="logo" >Rajbhasha</a>
                 </div>
                 <div className="navbar-end">
                     <div className="navbar-center">

@@ -2,13 +2,17 @@
 .navbar-container {
     /* backdrop-filter: blur(10px); */
     background-color: #2D112B;
-
+    width: 100vw;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+     height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 50;
-    width: 100vw;
+  
     transition: background-color 0.3s ease-in-out;
 }
 
