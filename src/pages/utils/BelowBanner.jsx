@@ -56,7 +56,7 @@ const BelowBanner = () => {
 
         <div className="library-item animation-show">
           <h2>कविता वाचन </h2>
-          <img src="https://i.postimg.cc/g08Lnchm/Screenshot-2024-09-13-004857.png" alt="description of image"/>
+          <img src="https://i.postimg.cc/RVf5PNGd/Screenshot-2024-09-13-004857.pngnpm" alt="description of image"/>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -65,7 +65,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>चित्रकथा लेखन </h2>
-          <img src="https://i.postimg.cc/76L4jmwd/Screenshot-2024-09-13-005222.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/3xTMzYcT/Screenshot-2024-09-13-005222.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -74,7 +74,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>प्रश्नोत्तरी</h2>
-          <img src="https://i.postimg.cc/sDCjgPcQ/Screenshot-2024-09-13-005600.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/kMLPFxND/Screenshot-2024-09-13-005600.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -86,7 +86,7 @@ const BelowBanner = () => {
       <div className="tab library" ref={libraryRef}>
         <div className="library-item animation-show">
           <h2>कविता वाचन</h2>
-          <img src="https://i.postimg.cc/63GK9T4f/Screenshot-2024-09-13-005732.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/L83dpwcZ/Screenshot-2024-09-13-005732.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -95,7 +95,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>पूर्ण विराम</h2>
-          <img src="https://i.postimg.cc/1zbxYP7n/Screenshot-2024-09-13-005837.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/8CZqFWPp/Screenshot-2024-09-13-005837.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -104,7 +104,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>शब्द रचना</h2>
-          <img src="https://i.postimg.cc/1t1CqzYH/Screenshot-2024-09-13-010016.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/C1d9b1zj/Screenshot-2024-09-13-010016.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -116,7 +116,7 @@ const BelowBanner = () => {
       <div className="tab library" ref={libraryRef}>
         <div className="library-item animation-show">
           <h2>चकमा गेंद</h2>
-          <img src="https://i.postimg.cc/D0XwYBcF/Screenshot-2024-09-13-010352.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/k4ZzsmbL/Screenshot-2024-09-13-010352.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -125,7 +125,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>गतिस्पर्धा</h2>
-          <img src="https://i.postimg.cc/vBpn0PVL/Screenshot-2024-09-13-010530.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/VvCTHV9v/Screenshot-2024-09-13-010530.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -134,7 +134,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>खजाने की खोज</h2>
-          <img src="https://i.postimg.cc/Hs0Mt9sX/Screenshot-2024-09-13-010629.png" alt="Image Name" />
+          <img src="https://i.postimg.cc/mZz0DPx4/Screenshot-2024-09-13-010629.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
