@@ -56,7 +56,7 @@ const BelowBanner = () => {
 
         <div className="library-item animation-show">
           <h2>ANDHA MOD</h2>
-          <img src="../src/assets/images/img/10.jpg" alt="Image Name" />
+          <img src="https://i.postimg.cc/qv5ZxQrF/profile-photo.jpg" alt="description of image"/>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
