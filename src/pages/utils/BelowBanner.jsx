@@ -56,7 +56,7 @@ const BelowBanner = () => {
 
         <div className="library-item animation-show">
           <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/10.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -65,7 +65,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/11.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -74,7 +74,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/12.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -85,7 +85,7 @@ const BelowBanner = () => {
       <div className="tab library" ref={libraryRef}>
         <div className="library-item animation-show">
           <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/10.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -94,7 +94,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/11.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -103,7 +103,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/12.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -114,7 +114,7 @@ const BelowBanner = () => {
       <div className="tab library" ref={libraryRef}>
         <div className="library-item animation-show">
           <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/10.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -123,7 +123,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/11.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -132,7 +132,7 @@ const BelowBanner = () => {
         </div>
         <div className="library-item animation-show">
           <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
+          <img src="../src/assets/images/img/12.jpg" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
