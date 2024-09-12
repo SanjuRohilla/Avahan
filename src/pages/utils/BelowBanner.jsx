@@ -1,9 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef }  from "react";
+import { useNavigate } from 'react-router-dom';
 import "./BelowBanner.css";
 
 const BelowBanner = () => {
   const libraryRef = useRef(null);
-
+  const navigate = useNavigate(); 
+  const handleRegisterClick = () => {
+    navigate('/events'); // Navigate to the Event page
+  };
   // useEffect(() => {
   //     // const handleMouseMove = (event) => {
   //     //     const libraryItems = libraryRef.current.querySelectorAll('.library-item img');
@@ -49,7 +53,9 @@ const BelowBanner = () => {
           vital role in preserving and fostering appreciation for Hindi among
           the youth.
         </p>
-        <button className="animation-show">Register For Event</button>
+        <button className="animation-show" onClick={handleRegisterClick}>
+          Register For Event
+        </button>
       </div>
        <div className="outerhead">  <h2>शब्दांगन</h2></div>
       <div className="tab library" ref={libraryRef}>
