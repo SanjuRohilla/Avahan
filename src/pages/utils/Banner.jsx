@@ -21,6 +21,7 @@ function Banner() {
                         fill="#2d112b"
                         fontSize="48"
                         fontFamily="Noto Sans Devanagari, sans-serif"
+                       
                     >
                         आव्हान
                     </text>

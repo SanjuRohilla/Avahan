@@ -90,6 +90,7 @@
 
 .dropdown-content.show {
     display: flex;
+   
     /* Show dropdown content when `show` class is applied */
 }
 

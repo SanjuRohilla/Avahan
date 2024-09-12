@@ -5,7 +5,10 @@ import BelowBanner from "./utils/BelowBanner";
 import "./home.css";
 import Footer from './components/Footer'
 const Home = () => {
-
+  
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
   return (
     <div className="parallex">

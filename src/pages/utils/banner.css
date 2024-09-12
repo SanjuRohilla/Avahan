@@ -76,6 +76,7 @@
 }
 
 
+
 @media (max-width: 1200px) {
     .banner h1 {
         top: 25%;
@@ -102,15 +103,20 @@
 
 @media (max-width: 576px) {
     .banner h1 {
-        top: 20%;
+        top: 40%;
         width: 230px;
         height: 110px;
+        position: relative;
+    }
+    .banner h1 text{
+        position: absolute;
+        top: 50%;
     }
 }
 
 @media (max-width: 400px) {
     .banner h1 {
-        top: 20%;
+        top: 40%;
         width: 200px;
         height: 100px;
     }

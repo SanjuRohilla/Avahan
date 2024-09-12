@@ -1,10 +1,14 @@
-import React from "react"
+import React ,{useEffect}from "react"
 import Card1 from "./components/Card1"
 import Card3 from "./components/Card3"
 import Card2 from "./components/Card2"
 import Card4 from "./components/Card4"
 
 export default function Team(){
+  
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
     return(
         <>
             <div className="flex-col py-10 bg-purple-50 bg-[url('\src\assets\svgs\b58072b9-9ab9-4f4e-afaf-9cdb524b46a3.jpg')]">

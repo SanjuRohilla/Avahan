@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect}from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Event.css';
 import nukkadimage from '../assets/events/nukkad.png';
@@ -9,6 +9,9 @@ import vaachan from '../assets/events/vaachan.jpg';
 function Event() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleMouseMove = (e) => {
     const textbox = e.currentTarget.querySelector('.textbox');
     const rect = textbox.getBoundingClientRect();
