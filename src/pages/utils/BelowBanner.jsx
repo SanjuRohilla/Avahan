@@ -37,7 +37,7 @@ const BelowBanner = () => {
     <div className="belowbanner1">
       <div className="additional"></div>
       <div className="tab intro">
-        <h1 className="animation-show" style={{ fontSize: "20px" }}>
+        <h1 className="animation-show" style={{ fontSize: "40px" }}>
           AVAHAN
         </h1>
         <p className="animation-show">
@@ -51,7 +51,7 @@ const BelowBanner = () => {
         </p>
         <button className="animation-show">Register For Event</button>
       </div>
-         <h2>शब्दांगन</h2>
+      <h2>शब्दांगन</h2>
       <div className="tab library" ref={libraryRef}>
 
         <div className="library-item animation-show">

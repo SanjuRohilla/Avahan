@@ -37,9 +37,7 @@ function Navbar() {
     const navItems = (
         <>
             <li><Link to="/">Home</Link></li>
-
             <li><Link to="/team">Team</Link></li>
-
             <li><Link to="/events">Events</Link></li>
         </>
     );
@@ -48,6 +46,14 @@ function Navbar() {
         <div className={`navbar-container ${sticky ? 'sticky-navbar' : ''}`}>
             <div className="navbar">
                 <div className="navbar-start">
+                    <a className="logo">Rajbhasha</a>
+                </div>
+                <div className="navbar-center">
+                    <ul className="nav-menu">
+                        {navItems}
+                    </ul>
+                </div>
+                <div className="navbar-end">
                     <div className="dropdown" ref={dropdownRef}>
                         <div className="dropdown-button" onClick={toggleDropdown}>
                             <svg
@@ -66,14 +72,6 @@ function Navbar() {
                             </svg>
                         </div>
                         <ul className={`dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
-                            {navItems}
-                        </ul>
-                    </div>
-                    <a className="logo" >Rajbhasha</a>
-                </div>
-                <div className="navbar-end">
-                    <div className="navbar-center">
-                        <ul className="nav-menu">
                             {navItems}
                         </ul>
                     </div>

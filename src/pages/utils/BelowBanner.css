@@ -1,4 +1,3 @@
-
 .belowbanner1 {
     background-color: #2d112b;
 }
@@ -75,7 +74,7 @@
     width: 0;
     background: #f0094a;
     box-shadow:
-      
+
         7px 7px 20px 0px #0003,
         4px 4px 5px 0px #0002;
     transition: 400ms ease all;
@@ -94,6 +93,86 @@
     transition: 800ms ease all;
 }
 
+/* General Styling for the text */
+.animation-show {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style for the heading (h1) */
+.animation-show h1 {
+    font-size: 48px;
+    /* Bigger size for the heading */
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Makes the text uppercase */
+    letter-spacing: 3px;
+    /* Adds spacing between letters */
+    text-align: center;
+    color: #f7b32b;
+    /* Gold color for the heading */
+    transition: color 0.4s ease, transform 0.4s ease;
+    /* Smooth animation */
+    cursor: pointer;
+}
+
+/* Hover effect on the heading */
+.animation-show h1:hover {
+    color: #ff6f61;
+    /* Changes the color on hover */
+    transform: scale(1.1);
+    /* Enlarges the heading slightly */
+}
+
+/* Style for the paragraph (p) */
+.animation-show p {
+    font-size: 16px;
+    /* Smaller size for the paragraph */
+    color: #d1d1d1;
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    line-height: 1.8;
+    transition: color 0.4s ease, transform 0.4s ease;
+    /* Smooth animation */
+}
+
+/* Hover effect for the paragraph */
+.animation-show p:hover {
+    color: #ffffff;
+    /* Changes the text color on hover */
+    transform: scale(1.02);
+    /* Slight scaling effect */
+}
+
+/* Center the content */
+.animation-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #2d112b;
+    /* Background for the container */
+    border-radius: 10px;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .animation-show h1 {
+        font-size: 36px;
+        /* Adjust the heading size on smaller screens */
+    }
+
+    .animation-show p {
+        font-size: 14px;
+        /* Adjust paragraph size */
+    }
+}
 
 
 /* .animation-show {
@@ -142,7 +221,8 @@
     object-fit: cover;
     /* transition: transform 0.1s ease-out, box-shadow 0.1s ease-out; */
 }
-.library p{
+
+.library p {
     margin-top: 20px;
     margin-bottom: 30PX;
 }
@@ -158,7 +238,7 @@
 }
 
 
-.intro button{
+.intro button {
     width: auto;
     padding: 5px 10px;
     display: flex;
@@ -168,7 +248,7 @@
 
 @media screen and (max-width: 768px) {
     .banner h1 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
 
     .library {
@@ -232,20 +312,23 @@
 
     .library {
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
-   .intro{
-    width: 60%;
-    margin: auto;
-   }
-   .intro h1{
-    margin-bottom: 15px;
-    font-size: 25px;
-  
-   }
-    .intro .animation-show{
-      
+
+    .intro {
+        width: 60%;
+        margin: auto;
+    }
+
+    .intro h1 {
+        margin-bottom: 15px;
+        font-size: 25px;
+
+    }
+
+    .intro .animation-show {
+
         font-size: 10px;
-        
+
     }
 }
