@@ -36,11 +36,11 @@ function Navbar() {
 
     const navItems = (
         <>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/team">Team</Link></li>
-            <li><Link to="/events">Events</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/results">Result</Link></li>
+            <li><Link to="/">होम</Link></li>
+            <li><Link to="/team">टीम</Link></li>
+            <li><Link to="/events">इवेंट्स</Link></li>
+            <li><Link to="/gallery">गैलरी</Link></li>
+            <li><Link to="/results">परिणाम</Link></li>
         </>
     );
 
@@ -48,7 +48,7 @@ function Navbar() {
         <div className={`navbar-container ${sticky ? 'sticky-navbar' : ''}`}>
             <div className="navbar">
                 <div className="navbar-start">
-                    <a className="logo">Rajbhasha</a>
+                    <a className="logo">राजभाषा</a>
                 </div>
                 <div className="navbar-center">
                     <ul className="nav-menu">
