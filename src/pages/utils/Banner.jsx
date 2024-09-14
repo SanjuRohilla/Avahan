@@ -23,7 +23,7 @@ function Banner() {
                         fontFamily="Noto Sans Devanagari, sans-serif"
                        
                     >
-                        आव्हान
+                        आह्वान
                     </text>
                 </svg></h1>
                 <div className='bg bg-4'></div>
