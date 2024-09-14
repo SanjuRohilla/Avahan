@@ -48,7 +48,7 @@ const Team = () => {
       <Title color={"HEAD"} noncolor={"COORDINATORS"} />
       <div className={styles.HeadSection}>
         {coordinatorsList.map((heads) => {
-          if (heads.id > 3) {
+          if (heads.id > 3 && heads.id < 20) {
             return (
               <HeadCard
                 key={heads.id}

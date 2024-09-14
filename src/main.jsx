@@ -9,6 +9,7 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx';
 import Team from './pages/Team.jsx';
 import Event from './pages/Event.jsx';
+import WebTeam from './pages/WebTeam.jsx';
 import EventDetail from './pages/EventDetail.jsx';  // Import EventDetail
 import './index.css'
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "events/:id",  // Add dynamic route for EventDetail
         element: <EventDetail />,
       },
+      {
+        path: "webteam",
+        element: <WebTeam/>,
+      }
     ],
   },
 ]);

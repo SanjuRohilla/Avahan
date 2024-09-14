@@ -1,23 +1,7 @@
-// import Vaibhav_Sawant from "../assets/images/heads/Vaibhav_Sawant.webp";
-// import Chirag_Singhal from "../assets/images/heads/Chirag_Singhal.webp";
-// import Ishan_Nayak from "../assets/images/heads/Ishan_Nayak.webp";
-// import Arpit_Pandey from "../assets/images/heads/Arpit_Pandey.webp";
-// import Anushree_Banerjee from "../assets/images/heads/Anushree_Banerjee.webp";
-// import Aparna_Gupta from "../assets/images/heads/Aparna_Gupta.webp";
-// import Kushal_Jain from "../assets/images/heads/Kushal_Jain.webp";
-// import Pratham_Gandhi from "../assets/images/heads/Pratham_Gandhi.webp";
-// import Shreya_Borikar from "../assets/images/heads/Shreya_Borikar.webp";
-// import Satyam_Singh from "../assets/images/heads/Satyam_Singh.webp";
-// import Pramil_Kesarwani from "../assets/images/heads/Pramil_Kesarwani.webp";
+
+
 import Arkita_Dam from "../assets/images/heads/Arkita_Dam.webp";
-// import Sameer_Trivedi from "../assets/images/heads/Sameer_Trivedi.webp";
-// import Sujoy_Banerjee from "../assets/images/heads/Sujoy_Banerjee.webp";
-// import Gopal_Katankar from "../assets/images/heads/Gopal_Katankar.webp";
-// import Suraj_Jogani from "../assets/images/heads/Suraj_Jogani.webp";
-// import Nakshatra_Singh from "../assets/images/heads/Nakshatra_Singh.webp";
-// import Pranshul_Hatwar from "../assets/images/heads/Pranshul_Hatwar.webp";
-// import Abhijeet_Kumar_Singh from "../assets/images/heads/Abhijeet_Kumar_Singh.webp";
-// import Rishav_Gandhi from "../assets/images/heads/Rishav_Gandhi.webp";
+
 
 export const coordinatorsList = [
   {
@@ -119,91 +103,93 @@ export const coordinatorsList = [
     instaUrl: "https://instagram.com/abhisekmallick2/",
     facebookUrl : "#",
     githubUrl : "#",
-    domain:"PR & Media"
+    domain:"Documentation"
   },
   {
     id: 11,
-    name: "Satyam Singh",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/satyam-singh-0a0b4721a/",
-    instaUrl: "https://www.instagram.com/singhsatyam480532023/",
+    name: "Rupesh Singh",
+    imgUrl: "src/assets/images/heads/IMG-20240515-WA0043~2 - Rupesh Singh.jpg",
+    linkedinUrl: "#",
+    instaUrl: "https://www.instagram.com/rupesh19012/",
     facebookUrl : "#",
     githubUrl : "#",
     domain:"PR & Media"
   },
   {
     id: 12,
-    name: "Anushree Banerjee",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/anushree001/",
-    instaUrl: "http://instagram.com/momo_02.04/",
-    facebookUrl : "#",
-    githubUrl : "#",
-    domain:"Vigyaan"
-  },
-  {
-    id: 13,
-    name: "Pratham Gandhi",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/prathamgandhi1308/",
+    name: "Piyush Jha",
+    imgUrl: "src/assets/images/heads/Screenshot_20240914-162530_Gallery - 4059-Piyush Kumar.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/piyush-kumar-468a07218/",
     instaUrl: "#",
     facebookUrl : "#",
     githubUrl : "#",
-    domain:"Vigyaan"
+    domain:"Public Relations"
+  },
+  {
+    id: 13,
+    name: "Arpit Dwiwedi",
+    imgUrl: "src/assets/images/heads/Image - Arpit Dwivedi.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/arpit-dwivedi-895270233/",
+    instaUrl: "https://www.instagram.com/arpitd2002/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Media and Publicity"
   },
   {
     id: 14,
-    name: "Pranshul Hatwar",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/pranshul-hatwar/",
-    instaUrl: "https://www.instagram.com/pranshul_hatwar1510/",
+    name: "Sumran Kumar",
+    imgUrl: "src/assets/images/heads/WhatsApp Image 2023-05-05 at 13.31.00_7c6dbebf - Sumaran Kumar.jpg",
+    linkedinUrl: "http://www.linkedin.com/in/sumarankumar",
+    instaUrl: "https://www.instagram.com/sumaran_04/",
     facebookUrl : "#",
     githubUrl : "#",
-    domain:"Vigyaan"
+    domain:"Public Relations "
   },
   {
     id: 15,
-    name: "Arkita Dam",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/arkita-dam-7865551a1/",
-    instaUrl: "https://www.instagram.com/arkitadam/",
+    name: "Abhinesh Sharma",
+    imgUrl: "src/assets/images/heads/WhatsApp_Image_2024-09-14_at_17.20.49-removebg-preview - Abhinesh Sharma.png",
+    linkedinUrl: "https://www.linkedin.com/in/abhineshs",
+    instaUrl: "#",
     facebookUrl : "#",
     githubUrl : "#",
     domain:"Documentation"
   },
   {
     id: 16,
-    name: "Sameer Trivedi",
-    imgUrl: Arkita_Dam,
+    name: "Lisha Sinha",
+    imgUrl: "src/assets/images/heads/IMG_20240812_190923_616 - 4050_Lisha Sinha.webp",
     linkedinUrl: "https://www.linkedin.com/in/sameert89/",
-    instaUrl: "https://www.instagram.com/s_ameer___/",
+    instaUrl: "https://www.instagram.com/Lishasinha504/",
     facebookUrl : "#",
     githubUrl : "#",
-    domain:"Documentation"
+    domain:"Media and Publicity"
   },  
   {
     id: 17,
-    name: "Kushal Jain",
-    imgUrl: Arkita_Dam,
-    linkedinUrl: "https://www.linkedin.com/in/kushal-jain-8645ab202/",
-    instaUrl: "https://www.instagram.com/kushaljain.202/",
+    name: "Abhay Raj Singh",
+    imgUrl: "src/assets/images/heads/Passport_photo_Abhay Raj1 - Abhay Raj Singh.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/abhay-raj-singh-6aaa19232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instaUrl: "https://www.instagram.com/rajabhay.21?utm_source=qr&igsh=ZWg0czQ0cGpoZHUy",
     facebookUrl : "#",
     githubUrl : "#",
     domain:"Design"
   },
+
+  
+  {
+    id: 18,
+    name: "Ayush Prajapati",
+    imgUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/sujoy-banerjee-a698aa210/",
+    instaUrl: "https://instagram.com/sujoy0910?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Event Management"
+  },
   
   // {
   //   id: 19,
-  //   name: "Sujoy Banerjee",
-  //   imgUrl: Arkita_Dam,
-  //   linkedinUrl: "https://www.linkedin.com/in/sujoy-banerjee-a698aa210/",
-  //   instaUrl: "https://instagram.com/sujoy0910?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-  //   facebookUrl : "#",
-  //   githubUrl : "#",
-  //   domain:"Design"
-  // },
-  // {
-  //   id: 20,
   //   name: "Rishav Gandhi",
   //   imgUrl: Arkita_Dam,
   //   linkedinUrl: "https://www.linkedin.com/in/rishav-gandhi-998a74211/",
@@ -212,24 +198,93 @@ export const coordinatorsList = [
   //   githubUrl : "#",
   //   domain:"Technical"
   // },
-  // {
-  //   id: 21,
-  //   name: "Rishav Gandhi",
-  //   imgUrl: Arkita_Dam,
-  //   linkedinUrl: "https://www.linkedin.com/in/rishav-gandhi-998a74211/",
-  //   instaUrl: "https://instagram.com/___rishav._?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
-  //   facebookUrl : "#",
-  //   githubUrl : "#",
-  //   domain:"Technical"
-  // },
-  // {
-  //   id: 22,
-  //   name: "Rishav Gandhi",
-  //   imgUrl: Arkita_Dam,
-  //   linkedinUrl: "https://www.linkedin.com/in/rishav-gandhi-998a74211/",
-  //   instaUrl: "https://instagram.com/___rishav._?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
-  //   facebookUrl : "#",
-  //   githubUrl : "#",
-  //   domain:"Technical"
-  // }
+
+  // CORES KA DATA
+
+  {
+    id: 20,
+    name: "Diptesh Raj",
+    imgUrl: "src/assets/images/heads/IMG-20240914-WA0023 - DIPTESH RAJ.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/diptesh-raj-2006abcd/",
+    instaUrl: "https://instagram.com/diptesh.raj/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  },
+  {
+    id: 21,
+    name: "Priyanshu Chandra",
+    imgUrl: "src/assets/images/heads/IMG-20230914-WA0017~2 - Priyanshu Chandra.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/chandrpriyansh",
+    instaUrl: "https://www.instagram.com/chandrpriyansh",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  },
+
+  {
+    id: 22,
+    name: "Hitesh Verma ",
+    imgUrl: "src/assets/images/heads/WhatsApp Image 2024-09-14 at 9.02.34 PM - Hitesh Verma.jpeg",
+    linkedinUrl: "https://www.linkedin.com/in/hitesh-verma-971532258/",
+    instaUrl: "https://instagram.com/_hiteshverma/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  }
+  ,
+  {
+    id: 23,
+    name: "Shubham Thakur",
+    imgUrl: "src/assets/events/20240911_130338.png",
+    linkedinUrl: "https://www.linkedin.com/in/shubham-thakur-b87905247",
+    instaUrl: "https://instagram.com/shhubhm_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  }
+  ,
+  {
+    id: 24,
+    name: "Sanju Rohilla ",
+    imgUrl: "src/assets/events/Sanju.jpg",
+    linkedinUrl: "https://www.https://www.linkedin.com/in/sanju-rohilla-4450452a5/",
+    instaUrl: "https://instagram.com/sanjurohilla27/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  }
+  ,
+  {
+    id: 25,
+    name: "Rishabh Chandrakar ",
+    imgUrl: "src/assets/images/heads/WhatsApp Image 2024-09-09 at 15.17.04_fdfa14ac - Rishabh Chandrakar.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/rishav-gandhi-998a74211/",
+    instaUrl: "https://instagram.com/rishabh.chandrakar_/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  },
+  {
+    id: 26,
+    name: "Lakshya Sarve",
+    imgUrl: "src/assets/images/heads/Lakshya Sarve.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/lakshyasarve/",
+    instaUrl: "https://www.instagram.com/lakshya.sarve/",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  },
+
+ {
+    id: 27,
+    name: "Harsh Pandey",
+    imgUrl: "src/assets/events/Harsh Pandey.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/harshpandeypro/",
+    instaUrl: "#",
+    facebookUrl : "#",
+    githubUrl : "#",
+    domain:"Technical"
+  }
+
 ];

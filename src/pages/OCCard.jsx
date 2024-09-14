@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './OCCard.module.css'
-import pic from "../assets/images/heads/stars-min.webp"
+// import pic from "../assets/images/heads/stars-min.webp"
 import linkedin from "../assets/svgs/linkedin.svg"
 import insta from "../assets/svgs/insta.svg"
 
@@ -20,7 +20,7 @@ function OCCard(props) {
 
         
         <img src="https://www.cognizance.org.in/Images/team/vectors/leftMid.png" className={styles.leftMid} alt=""></img>
-        <img src={pic} className={styles.rightMid} alt=""></img>
+        {/* <img src={pic} className={styles.rightMid} alt=""></img> */}
       </div>
 
     </div>
