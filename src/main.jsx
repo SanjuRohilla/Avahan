@@ -14,6 +14,7 @@ import './index.css'
 import Gallery from './pages/Gallery/Gallery.jsx';
 import Result from './pages/Result/Result.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import GalleryDetail from './pages/GalleryDetail/GalleryDetail.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,7 +48,11 @@ const router = createBrowserRouter([
       {
         path: "contact",  // Add dynamic route for EventDetail
         element: <ContactPage />,
-      }
+      },
+      {
+         path: "gallery/:id",  // Add dynamic route for EventDetail
+        element: <GalleryDetail />,
+       },
     ],
   },
 ]);
