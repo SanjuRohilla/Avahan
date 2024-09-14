@@ -43,7 +43,7 @@ const router = createBrowserRouter([
         path: "webteam",
         element: <WebTeam/>,
       }
-
+      ,{
         path: "gallery",  // Add dynamic route for EventDetail
         element: <Gallery />,
       },
@@ -55,6 +55,7 @@ const router = createBrowserRouter([
         path: "contact",  // Add dynamic route for EventDetail
         element: <ContactPage />,
       },
+
       {
          path: "gallery/:id",  // Add dynamic route for EventDetail
         element: <GalleryDetail />,
