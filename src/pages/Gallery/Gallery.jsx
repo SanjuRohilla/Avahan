@@ -2,12 +2,12 @@ import React from 'react';
 import './Gallery.css';
 
 const images = [
-  { src: '/src/assets/images/nukkad.jpg', title: 'Nukkad Natak' },
-  { src: '/src/assets/images/nukkad.jpg', title: 'Andha Mor' },
+  { src: 'https://i.postimg.cc/YCzMPbjm/IMG-20240314-WA0003.jpg', title: 'Nukkad Natak' },
+  { src: 'https://i.postimg.cc/7Z8Zd5Vj/IMG-7230.avif', title: 'Andha Mor' },
   { src: '/src/assets/images/nukkad.jpg', title: 'Treasure Hunt' },
-  { src: '/src/assets/images/nukkad.jpg', title: 'Faculty Event' },
-  { src: '/src/assets/images/nukkad.jpg', title: 'Kavita Vachan' },
-  { src: '/src/assets/images/nukkad.jpg', title: 'Awahan' },
+  { src: 'https://i.postimg.cc/qB5JsLvx/DSC-0317.png', title: 'Faculty Event' },
+  { src: 'https://i.postimg.cc/tC59SBsn/IMG-20230911-173032918.jpg', title: 'Kavita Vachan' },
+  { src: 'https://i.postimg.cc/Xq0LZPz7/DSC01765.jpg', title: 'Tatkalik Bhashan' },
 ];
 
 const Gallery = () => {

@@ -10,7 +10,7 @@ const eventDetails = {
     time: '1:00 PM',
     venue: 'Front of Main Building',
     description: 'यह एक सड़क पर प्रस्तुत किया जाने वाला नाट्य रूप है जिसमें समाज की समस्याओं या किसी सामाजिक मुद्दे पर ध्यान आकर्षित किया जाता है। इसमें सीमित मंच और साधन होते हैं, लेकिन संदेश स्पष्ट और जोरदार होता है।',
-    images: ['/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg'],
+    images: ['https://i.postimg.cc/Twpxpx0r/IMG-20240314-WA0006.jpg', 'https://i.postimg.cc/YCzMPbjm/IMG-20240314-WA0003.jpg', 'https://i.postimg.cc/QC2yNGYx/IMG-6869.avif'],
     rulesFile: 'nukkad.txt',
     link: ''
   },
@@ -20,7 +20,7 @@ const eventDetails = {
     time: '1:00 PM',
     venue: 'Front of Main Building',
     description: 'यह एक खेल या गतिविधि है जिसमें प्रतिभागी अपनी आंखों पर पट्टी बांधकर एक निश्चित मार्ग को पार करने का प्रयास करते हैं। इसमें दिशा ज्ञान और सहयोग की महत्वपूर्ण भूमिका होती है।',
-    images: ['/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg'],
+    images: ['https://i.postimg.cc/LXCsbvCV/DSC01889.jpg', 'https://i.postimg.cc/Pr8qSWmm/DSC01903.jpg', 'https://i.postimg.cc/7Z8Zd5Vj/IMG-7230.avif'],
     rulesFile: 'andha.txt',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSe7MepNkwXY6LI4rmwhz1f0cZg4xs1Ntq2MvXXNwO75Zp8tvw/viewform'
   },
@@ -40,7 +40,7 @@ const eventDetails = {
     time: '1:00 PM',
     venue: 'Front of Main Building',
     description: 'इसमें प्रतिभागी अपनी या किसी प्रसिद्ध कवि की कविताओं का प्रभावी ढंग से वाचन करते हैं। कविता की भावनाओं और लय को सही ढंग से प्रस्तुत करना महत्वपूर्ण होता है।',
-    images: ['/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg', '/src/assets/images/nukkad.jpg'],
+    images: ['https://i.postimg.cc/Y0xBPSCB/DSC01779.jpg', 'https://i.postimg.cc/kggqkWS1/IMG20230911172459.jpg', 'https://i.postimg.cc/v87yT0L2/DSC01771.jpg'],
     rulesFile: 'vaachan.txt' ,
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSe7MepNkwXY6LI4rmwhz1f0cZg4xs1Ntq2MvXXNwO75Zp8tvw/viewform'
   },
