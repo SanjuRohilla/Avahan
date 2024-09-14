@@ -20,12 +20,12 @@ const Footer = () => {
       <div className="footer-container">
         {/* Quick Links Section on the Left */}
         <div className="footer-section quick-links-section">
-          <h4 className="footer-title">Quick Links</h4>
+          <h4 className="footer-title">त्वरित लिंक</h4>
           <ul className="quick-links">
-            <li><a href="" onClick={() => ClickHandle('events')}>Events</a></li>
-            <li><a href="/resources">Resources</a></li>
-            <li><a href="" onClick={() => ClickHandle('gallery')}>Gallery</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a  onClick={() => ClickHandle('events')}>इवेंट्स</a></li>
+            <li><a href="https://www.rajbhashanitrr.in">मर्चन्डाइज़</a></li>
+            <li><a  onClick={() => ClickHandle('gallery')}>गैलरी</a></li>
+            <li><a  onClick={() => ClickHandle('contact')}>संपर्क</a></li>
           </ul>
         </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
         {/* Club Logo and Info Section in the Center */}
         <div className="footer-section club-info">
           <div className="club-header">
-            <img src="/src/assets/images/img/rajbhashalogo.jpeg" alt="Club Logo" className="club-logo" style={{borderRadius: '50%'}} />
+            <img src="https://i.postimg.cc/ht6zRmwv/rajbhashalogo.jpg" alt="Club Logo" className="club-logo" style={{borderRadius: '50%'}} />
             <h2 className="club-name">राजभाषा समिति</h2>
           </div>
           <p className="club-quote">"किताबें वह जादू की चाबी हैं, जो दुनिया और दिल के हर दरवाज़े खोल देती हैं।"</p>
@@ -42,20 +42,20 @@ const Footer = () => {
 
         {/* Contact Section on the Right */}
         <div className="events-section footer-section">
-          <h4 className="footer-eventtitle">Events</h4>
+          <h4 className="footer-eventtitle">इवेंट्स</h4>
           <div className='outer-layer'>
             <div className="footer-event-list">
               <ul className="footer-event-column">
-                <li><a href='' onClick={() => handleClick('nukkad')}>नुक्कड़</a></li>
-                <li><a href= ''onClick={() => handleClick('treasure')}>खजाने की खोज</a></li>
-                <li><a href= ''onClick={() => handleClick('andha')}>अंधा मोड़</a></li>
-                <li><a href= ''onClick={() => handleClick('andha')}>चित्र कथा</a></li>
+                <li><a  onClick={() => handleClick('nukkad')}>नुक्कड़</a></li>
+                <li><a onClick={() => handleClick('treasure')}>खजाने की खोज</a></li>
+                <li><a onClick={() => handleClick('andha')}>अंधा मोड़</a></li>
+                <li><a onClick={() => handleClick('andha')}>चित्र कथा</a></li>
               </ul>
               <ul className="footer-event-column">
-                <li><a href="" onClick={() => handleClick('andha')}>चकमा गेंद</a></li>
-                <li><a href="" onClick={() => handleClick('andha')}>गतिस्पर्धा</a></li>
-                <li><a href="" onClick={() => handleClick('andha')}>कविता वाचन</a></li>
-                <li><a href="" onClick={() => handleClick('andha')}>प्रश्नोत्तरी</a></li>
+                <li><a onClick={() => handleClick('andha')}>चकमा गेंद</a></li>
+                <li><a  onClick={() => handleClick('andha')}>गतिस्पर्धा</a></li>
+                <li><a  onClick={() => handleClick('andha')}>कविता वाचन</a></li>
+                <li><a  onClick={() => handleClick('andha')}>प्रश्नोत्तरी</a></li>
               </ul>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
           <h4 className="footer-title">संपर्क करें</h4>
           <div className="contact-item">
             <FaEnvelope className="icon" />
-            <a href="mailto:languageclub@college.edu">languageclub@college.edu</a>
+            <a href="">राजभाषा समिति</a>
           </div>
           <div className="contact-item">
             <FaMapMarkerAlt className="icon" />
@@ -79,7 +79,7 @@ const Footer = () => {
           <p>Made with <span role="img" aria-label="heart">❤️</span> by <a href="" onClick={() => ClickHandle('team')} className="web-team">Web Team</a></p>
         </div>
         <div className="social-connect">
-          <p>Connect Us On:</p>
+          <p>राजभाषा समिति से जुड़े:</p>
           <div className="social-icons">
             <a href="https://www.facebook.com/rajbhasha.nitrr/" target="_blank" rel="noopener noreferrer" data-tooltip="Follow us on Facebook">
               <FaFacebook className="social-icon" />
