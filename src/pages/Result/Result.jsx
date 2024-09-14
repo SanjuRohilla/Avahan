@@ -10,36 +10,36 @@ const WinnerAnnouncement = () => {
             </div>
 
             <div className="banner1-heading">
-                <h1>AAVAHAN</h1>
+                <h1>आह्वान</h1>
             </div>
 
             {/* Treasure Hunt Section */}
             <section className="event-section">
-                <h2>Treasure Hunt</h2>
+                <h2>खजाना खोज</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
-                        <h3>Winner</h3>
-                        <p>Advents of Gods and Demons</p>
+                        <h3>विजेता</h3>
+                        <p>एड्वेंट्स ऑफ गॉड्स एंड डेमन्स</p>
                         <ul>
-                            <li>Pritpal Keshar</li>
-                            <li>Anirudhh Malhotra</li>
+                            <li>प्रीतपाल केशर</li>
+                            <li>अनिरुद्ध मल्होत्रा</li>
                         </ul>
                     </div>
                     <div className="winner second-place">
-                        <h3>Runner Ups</h3>
-                        <p>3 Idiots</p>
+                        <h3>रनर अप्स</h3>
+                        <p>3 इडियट्स</p>
                         <ul>
-                            <li>Sonakshi</li>
-                            <li>Yadhu Krishnan</li>
-                            <li>Arpit Gupta</li>
+                            <li>सोनाक्षी</li>
+                            <li>यधु कृष्णन</li>
+                            <li>अर्पित गुप्ता</li>
                         </ul>
                     </div>
                     <div className="winner third-place">
-                        <h3>Second Runner</h3>
-                        <p>Team Tissians</p>
+                        <h3>दूसरा रनर</h3>
+                        <p>टीम टिसियन्स</p>
                         <ul>
-                            <li>Rita Bhagat</li>
-                            <li>Mohammad Aadil</li>
+                            <li>रीता भगत</li>
+                            <li>मोहम्मद आदिल</li>
                         </ul>
                     </div>
                 </div>
@@ -47,80 +47,78 @@ const WinnerAnnouncement = () => {
 
             {/* Kavita Lekhan Section */}
             <section className="event-section">
-                <h2>Kavita Lekhan</h2>
+                <h2>कविता लेखन</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
                         <img src="https://i.postimg.cc/jnQcyX2M/first-place-icon.png" alt="1st Place Icon" className="icon" />
-                        <p>Govind Singh Rathore</p>
-                        <p>(Keshav Mahavidyalay Delhi)</p>
+                        <p>गोविन्द सिंह राठौड़</p>
+                        <p>(केशव महाविद्यालय, दिल्ली)</p>
                     </div>
                     <div className="winner second-place">
                         <img src="https://i.postimg.cc/w3hwK62D/second-place-icon.png" alt="2nd Place Icon" className="icon" />
-                        <p>Aayush Kesharwani</p>
-                        <p>(UIT Bhopal)</p>
+                        <p>आयुष केशरवानी</p>
+                        <p>(यूआईटी भोपाल)</p>
                     </div>
                     <div className="winner third-place">
                         <img src="https://i.postimg.cc/56bnbZKT/third-place-icon.png" alt="3rd Place Icon" className="icon" />
-                        <p>Yuvaraj Singh</p>
-                        <p>(NIT Raipur)</p>
+                        <p>युवराज सिंह</p>
+                        <p>(एनआईटी रायपुर)</p>
                     </div>
                 </div>
             </section>
 
             {/* Laghu Video Section */}
             <section className="event-section">
-                <h2>Laghu Video</h2>
+                <h2>लघु वीडियो</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
                         <img src="/src/assets/results/first-place-icon.png" alt="1st Place Icon" className="icon" />
-                        <p>Rohit Kumar Singh</p>
-                        <p>(NIT Raipur)</p>
+                        <p>रोहित कुमार सिंह</p>
+                        <p>(एनआईटी रायपुर)</p>
                     </div>
                     <div className="winner second-place">
                         <img src="/src/assets/results/second-place-icon.png" alt="2nd Place Icon" className="icon" />
-                        <p>Prafulla Drivedi</p>
-                        <p>(Lucknow University)</p>
+                        <p>प्रफुल्ल द्विवेदी</p>
+                        <p>(लखनऊ विश्वविद्यालय)</p>
                     </div>
                     <div className="winner third-place">
                         <img src="/src/assets/results/third-place-icon.png" alt="3rd Place Icon" className="icon" />
-                        <p>Prateek</p>
-                        <p>(Xavier's School of Management)</p>
+                        <p>प्रतीक</p>
+                        <p>(ज़ेवियर स्कूल ऑफ मैनेजमेंट)</p>
                     </div>
                 </div>
             </section>
 
-
-
             <div className="banner1-heading">
-                <h1>MATRIBHUMI DIVAS</h1>
+                <h1>मातृभूमि दिवस</h1>
             </div>
 
             <section className="event-section">
-                <h2>Treasure Hunt</h2>
+                <h2>खजाना खोज</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
-                        <h3>Winner</h3>
-                        <p>Advents of Gods and Demons</p>
+                        <h3>विजेता</h3>
+                        <p>एड्वेंट्स ऑफ गॉड्स एंड डेमन्स</p>
                         <ul>
-                            <li>Pritpal Keshar</li>
-                            <li>Anirudhh Malhotra</li>
+                            <li>प्रीतपाल केशर</li>
+                            <li>अनिरुद्ध मल्होत्रा</li>
                         </ul>
                     </div>
                     <div className="winner second-place">
-                        <h3>Runner Ups</h3>
-                        <p>3 Idiots</p>
+                        <h3>रनर अप्स</h3>
+                        <p>3 इडियट्स</p>
                         <ul>
-                            <li>Sonakshi</li>
-                            <li>Yadhu Krishnan</li>
-                            <li>Arpit Gupta</li>
+                            <li>सोनाक्षी</li>
+                            <li>यधु कृष्णन</li>
+                            <li>अर्पित गुप्ता</li>
                         </ul>
                     </div>
                     <div className="winner third-place">
-                        <h3>Second Runner</h3>
-                        <p>Team Tissians</p>
+                        <h3>दूसरा रनर</h3>
+                        <p>टीम टिसियन्स</p>
                         <ul>
-                            <li>Rita Bhagat</li>
-                            <li>Mohammad Aadil</li>
+                            <li>रीता भगत</li>
+                            <li>मोहम्मद आदिल</li>
                         </ul>
                     </div>
                 </div>
@@ -128,50 +126,47 @@ const WinnerAnnouncement = () => {
 
             {/* Kavita Lekhan Section */}
             <section className="event-section">
-                <h2>Kavita Lekhan</h2>
+                <h2>कविता लेखन</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
                         <img src="https://i.postimg.cc/jnQcyX2M/first-place-icon.png" alt="1st Place Icon" className="icon" />
-                        <p>Govind Singh Rathore</p>
-                        <p>(Keshav Mahavidyalay Delhi)</p>
+                        <p>गोविन्द सिंह राठौड़</p>
+                        <p>(केशव महाविद्यालय, दिल्ली)</p>
                     </div>
                     <div className="winner second-place">
                         <img src="https://i.postimg.cc/w3hwK62D/second-place-icon.png" alt="2nd Place Icon" className="icon" />
-                        <p>Aayush Kesharwani</p>
-                        <p>(UIT Bhopal)</p>
+                        <p>आयुष केशरवानी</p>
+                        <p>(यूआईटी भोपाल)</p>
                     </div>
                     <div className="winner third-place">
                         <img src="https://i.postimg.cc/56bnbZKT/third-place-icon.png" alt="3rd Place Icon" className="icon" />
-                        <p>Yuvaraj Singh</p>
-                        <p>(NIT Raipur)</p>
+                        <p>युवराज सिंह</p>
+                        <p>(एनआईटी रायपुर)</p>
                     </div>
                 </div>
             </section>
 
             {/* Laghu Video Section */}
             <section className="event-section">
-                <h2>Laghu Video</h2>
+                <h2>लघु वीडियो</h2>
                 <div className="winner-icons">
                     <div className="winner first-place">
                         <img src="/src/assets/results/first-place-icon.png" alt="1st Place Icon" className="icon" />
-                        <p>Rohit Kumar Singh</p>
-                        <p>(NIT Raipur)</p>
+                        <p>रोहित कुमार सिंह</p>
+                        <p>(एनआईटी रायपुर)</p>
                     </div>
                     <div className="winner second-place">
                         <img src="/src/assets/results/second-place-icon.png" alt="2nd Place Icon" className="icon" />
-                        <p>Prafulla Drivedi</p>
-                        <p>(Lucknow University)</p>
+                        <p>प्रफुल्ल द्विवेदी</p>
+                        <p>(लखनऊ विश्वविद्यालय)</p>
                     </div>
                     <div className="winner third-place">
                         <img src="/src/assets/results/third-place-icon.png" alt="3rd Place Icon" className="icon" />
-                        <p>Prateek</p>
-                        <p>(Xavier's School of Management)</p>
+                        <p>प्रतीक</p>
+                        <p>(ज़ेवियर स्कूल ऑफ मैनेजमेंट)</p>
                     </div>
                 </div>
             </section>
-
-
-
         </div>
     );
 };
