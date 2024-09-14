@@ -1,9 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef }  from "react";
+import { useNavigate } from 'react-router-dom';
 import "./BelowBanner.css";
 
 const BelowBanner = () => {
   const libraryRef = useRef(null);
-
+  const navigate = useNavigate(); 
+  const handleRegisterClick = () => {
+    navigate('/events'); // Navigate to the Event page
+  };
   // useEffect(() => {
   //     // const handleMouseMove = (event) => {
   //     //     const libraryItems = libraryRef.current.querySelectorAll('.library-item img');
@@ -37,7 +41,9 @@ const BelowBanner = () => {
     <div className="belowbanner1">
       <div className="additional"></div>
       <div className="tab intro">
+
         <h1 className="animation-show" style={{ fontSize: "40px" }}>
+
           AVAHAN
         </h1>
         <p className="animation-show">
@@ -49,14 +55,18 @@ const BelowBanner = () => {
           vital role in preserving and fostering appreciation for Hindi among
           the youth.
         </p>
-        <button className="animation-show">Register For Event</button>
+        <button className="animation-show" onClick={handleRegisterClick}>
+          Register For Event
+        </button>
       </div>
-      <h2>शब्दांगन</h2>
+
+       <div className="outerhead">  <h2>शब्दांगन</h2></div>
+
       <div className="tab library" ref={libraryRef}>
 
         <div className="library-item animation-show">
-          <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
+          <h2>कविता वाचन </h2>
+          <img src="https://i.postimg.cc/RVf5PNGd/Screenshot-2024-09-13-004857.pngnpm" alt="description of image"/>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -64,8 +74,8 @@ const BelowBanner = () => {
           </p>
         </div>
         <div className="library-item animation-show">
-          <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
+          <h2>चित्रकथा लेखन </h2>
+          <img src="https://i.postimg.cc/3xTMzYcT/Screenshot-2024-09-13-005222.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -73,37 +83,8 @@ const BelowBanner = () => {
           </p>
         </div>
         <div className="library-item animation-show">
-          <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-            incidunt enim, excepturi reiciendis delectus dolore fuga earum
-            similique molestiae. Numquam!
-          </p>
-        </div>
-      </div>
-      <div className="tab library" ref={libraryRef}>
-        <div className="library-item animation-show">
-          <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-            incidunt enim, excepturi reiciendis delectus dolore fuga earum
-            similique molestiae. Numquam!
-          </p>
-        </div>
-        <div className="library-item animation-show">
-          <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-            incidunt enim, excepturi reiciendis delectus dolore fuga earum
-            similique molestiae. Numquam!
-          </p>
-        </div>
-        <div className="library-item animation-show">
-          <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
+          <h2>प्रश्नोत्तरी</h2>
+          <img src="https://i.postimg.cc/kMLPFxND/Screenshot-2024-09-13-005600.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -111,10 +92,11 @@ const BelowBanner = () => {
           </p>
         </div>
       </div>
+      <div className="outerhead">  <h2>अभिव्यक्ति</h2></div>
       <div className="tab library" ref={libraryRef}>
         <div className="library-item animation-show">
-          <h2>ANDHA MOD</h2>
-          <img src="../public/img/10.jpg" alt="Image Name" />
+          <h2>कविता वाचन</h2>
+          <img src="https://i.postimg.cc/L83dpwcZ/Screenshot-2024-09-13-005732.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -122,8 +104,8 @@ const BelowBanner = () => {
           </p>
         </div>
         <div className="library-item animation-show">
-          <h2>KHAZANE KI KHOJ</h2>
-          <img src="../public/img/11.jpg" alt="Image Name" />
+          <h2>पूर्ण विराम</h2>
+          <img src="https://i.postimg.cc/8CZqFWPp/Screenshot-2024-09-13-005837.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum
@@ -131,8 +113,38 @@ const BelowBanner = () => {
           </p>
         </div>
         <div className="library-item animation-show">
-          <h2>KAVITA VAACHAN</h2>
-          <img src="../public/img/12.jpg" alt="Image Name" />
+          <h2>शब्द रचना</h2>
+          <img src="https://i.postimg.cc/C1d9b1zj/Screenshot-2024-09-13-010016.png" alt="Image Name" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            incidunt enim, excepturi reiciendis delectus dolore fuga earum
+            similique molestiae. Numquam!
+          </p>
+        </div>
+      </div>
+      <div className="outerhead">  <h2>चक्रव्यूह</h2></div>
+      <div className="tab library" ref={libraryRef}>
+        <div className="library-item animation-show">
+          <h2>चकमा गेंद</h2>
+          <img src="https://i.postimg.cc/k4ZzsmbL/Screenshot-2024-09-13-010352.png" alt="Image Name" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            incidunt enim, excepturi reiciendis delectus dolore fuga earum
+            similique molestiae. Numquam!
+          </p>
+        </div>
+        <div className="library-item animation-show">
+          <h2>गतिस्पर्धा</h2>
+          <img src="https://i.postimg.cc/VvCTHV9v/Screenshot-2024-09-13-010530.png" alt="Image Name" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            incidunt enim, excepturi reiciendis delectus dolore fuga earum
+            similique molestiae. Numquam!
+          </p>
+        </div>
+        <div className="library-item animation-show">
+          <h2>खजाने की खोज</h2>
+          <img src="https://i.postimg.cc/mZz0DPx4/Screenshot-2024-09-13-010629.png" alt="Image Name" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
             incidunt enim, excepturi reiciendis delectus dolore fuga earum

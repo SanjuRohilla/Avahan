@@ -1,12 +1,16 @@
 .belowbanner1 {
     background-color: #2d112b;
+   
 }
 
 
 .tab .intro h2 {
     margin-block-start: 0;
 }
-
+.intro h1{
+    font-size: 40px;
+    margin: 2rem 0rem;
+}
 .intro {
     min-height: 50vh;
     color: #eee;
@@ -202,6 +206,18 @@
 .animation-show:nth-child(4) {
     transition-delay: 0.9s;
 } */
+.outerhead{
+    width: 100%;
+   margin-top: 2rem;
+    text-align: center;
+    background-color: #190918;
+    border-radius:  5%;
+}
+.outerhead h2{
+    color: #fff;
+    font-size: 3rem;
+
+}
 
 .library {
     margin-top: 50px;
@@ -249,6 +265,10 @@
 @media screen and (max-width: 768px) {
     .banner h1 {
         font-size: 7rem;
+    }
+    .intro h1{
+        font-size: 30px;
+        margin: 1rem 0rem;
     }
 
     .library {
@@ -326,7 +346,20 @@
 
     }
 
-    .intro .animation-show {
+    .outerhead h2{
+        color: #fff;
+        font-size: 1.7rem;
+    
+    }
+   .intro{
+    width: 60%;
+    margin: auto;
+   }
+   .intro h1{
+    font-size: 40px;
+    margin: 2rem 0rem;
+}
+    .intro .animation-show{
 
         font-size: 10px;
 
