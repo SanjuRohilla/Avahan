@@ -12,6 +12,7 @@ import Event from './pages/Event.jsx';
 import EventDetail from './pages/EventDetail.jsx';  // Import EventDetail
 import './index.css'
 import Gallery from './pages/Gallery/Gallery.jsx';
+import Result from './pages/Result/Result.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "gallery",  // Add dynamic route for EventDetail
         element: <Gallery />,
+      },
+      {
+        path: "results",  // Add dynamic route for EventDetail
+        element: <Result />,
       }
     ],
   },
