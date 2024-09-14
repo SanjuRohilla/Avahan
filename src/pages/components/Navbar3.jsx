@@ -41,6 +41,8 @@ function Navbar() {
             <li><Link to="/team">Team</Link></li>
 
             <li><Link to="/events">Events</Link></li>
+
+            <li><Link to="/gallery">Gallery</Link></li>
         </>
     );
 
