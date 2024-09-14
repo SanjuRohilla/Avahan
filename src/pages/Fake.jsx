@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./Team.module.css";
 import HeadCard from "./HeadCard";
 import { coordinatorsList } from "./heads_data";
-
+import { techList } from "./tech_data";
+import Card3 from "./components/Card3";
 import { coresList } from "./cores_data";
 import OCCard from "./OCCard";
 import Title from "./Title";
@@ -15,29 +16,23 @@ import style from "styled-jsx/style";
 const Team = () => {
   return (
     <div className={styles.container} style={{background:"#fef9e7" , maxWidth:"100vw" ,overflowX:"hidden"}}>
-      <Title color={"RAJBHASHA"} noncolor={"TEAM"} />
+      <Title color={"DEVELOPERS"} noncolor={"TEAM"} />
       <div data-aos="fade-up" className="container">
-        <div className="fn_cs_news container">
-          <div className="news_part">
-            <div className="left_items" style={{margin:"0"}}>
-              <div  className="blog__item">
-                      {/* <img src={teampic} width="100%" alt="" /> */}
-              </div>
-            </div>
-          </div>
+        <div class="bg-black">
+
         </div>
       </div>
-      <Title color={"OVERALL"} noncolor={"COORDINATORS"} />
+      <Title color={"HEADS OF"} noncolor={" TECH TEAM"} />
       <div className={styles.OverallHeadSection}>
-        {coordinatorsList.map((heads) => {
-          if (heads.id <= 3) {
+        {techList.map((headsTech) => {
+          if (heads.id == 4 || heads.id == 5) {
             return (
               <OCCard
-                key={heads.id}
-                img={heads.imgUrl}
-                name={heads.name}
-                domain={heads.domain}
-                linkedinId={heads.linkedinUrl}
+                key={headsTech.id}
+                img={headsTech.imgUrl}
+                name={headsTech.name}
+                domain={headsTech.domain}
+                linkedinId={headsTech.linkedinUrl}
                 InstaId={heads.instaUrl}
               />
             );
@@ -45,6 +40,10 @@ const Team = () => {
           return null;
         })}
       </div>
+          
+      
+      
+      
       <Title color={"HEAD"} noncolor={"COORDINATORS"} />
       <div className={styles.HeadSection}>
         {coordinatorsList.map((heads) => {
