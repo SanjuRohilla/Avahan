@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="content">
         <div className="top">
           <div className="logo-details">
-            <span className="logo_name">Rajbhasha</span>
+            <a href="/webteam"  ><span style={{padding: "0.5rem 1rem", background: "brown" , borderRadius: "10px", fontSize: "15px" }} className="logo_name" >Developers info here ❤️</span></a>
           </div>
           <div className="media-icons">
             <a href="#" target='_blank'><i className="fab fa-facebook-f"></i></a>
