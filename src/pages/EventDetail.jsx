@@ -52,7 +52,7 @@ function EventDetail() {
   const [rules, setRules] = useState('');
 
   useEffect(() => {
-    fetch(`/src/assets/txts/${event.rulesFile}`)
+    fetch(`/txts/${event.rulesFile}`)
       .then((response) => response.text())
       .then((text) => setRules(text))
       .catch((error) => console.error('Error fetching rules:', error));
@@ -65,7 +65,7 @@ function EventDetail() {
 
         <div className='minor-details'>
           <div className='minor'>
-            <img src='/src/assets/svgs/calendar.svg' style={{ height: '50px', width: '50px', borderRadius: '50%' }} alt="nukkad Icon" />
+            <img src='/src/assets/svgs/calendar.vite.svg' style={{ height: '50px', width: '50px', borderRadius: '50%' }} alt="nukkad Icon" />
             <p className='small-text'>Date : {event.nukkad}</p>
           </div>
           <div className='minor'>
@@ -73,7 +73,7 @@ function EventDetail() {
             <p className='small-text'>Venue : {event.venue}</p>
           </div>
           <div className='minor'>
-            <img src='/src/assets/svgs/time.svg' style={{ height: '50px', width: '50px', borderRadius: '50%' }} alt="nukkad Icon" />
+            <img src='https://i.postimg.cc/W4WFHpqJ/time.png' style={{ height: '50px', width: '50px', borderRadius: '50%' }} alt="nukkad Icon" />
             <p className='small-text'>Time : {event.time}</p>
           </div>
         </div>
