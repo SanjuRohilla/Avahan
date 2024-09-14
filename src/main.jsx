@@ -11,6 +11,7 @@ import Team from './pages/Team.jsx';
 import Event from './pages/Event.jsx';
 import EventDetail from './pages/EventDetail.jsx';  // Import EventDetail
 import './index.css'
+import Gallery from './pages/Gallery/Gallery.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "events/:id",  // Add dynamic route for EventDetail
         element: <EventDetail />,
       },
+      {
+        path: "gallery",  // Add dynamic route for EventDetail
+        element: <Gallery />,
+      }
     ],
   },
 ]);
