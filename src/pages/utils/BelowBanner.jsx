@@ -47,13 +47,7 @@ const BelowBanner = () => {
           AVAHAN
         </h1>
         <p className="animation-show">
-          The RAJBHASHA club at NIT Raipur celebrates Hindi language and culture
-          through its main event, Aavahan. This event features activities like
-          Kavita Lekhan, Nukkad Natak, Tatkalin Bhasa, Samuh Charcha, and Kavita
-          Pathan. These activities promote Hindi literature and encourage
-          students to engage creatively and intellectually. The club plays a
-          vital role in preserving and fostering appreciation for Hindi among
-          the youth.
+        NIT रायपुर में राजभाषा क्लब हिंदी भाषा और संस्कृति का उत्सव अपने मुख्य कार्यक्रम "आवाहन" के माध्यम से मनाता है। इस कार्यक्रम में कविता लेखन, नुक्कड़ नाटक, तात्कालिक भाषण, समूह चर्चा और कविता पाठ जैसी गतिविधियाँ होती हैं। इन गतिविधियों का उद्देश्य हिंदी साहित्य को बढ़ावा देना और छात्रों को रचनात्मक और बौद्धिक रूप से शामिल करना है। यह क्लब युवाओं के बीच हिंदी भाषा के प्रति सराहना और संरक्षण में महत्वपूर्ण भूमिका निभाता है।
         </p>
         <button className="animation-show" onClick={handleRegisterClick}>
           Register For Event
